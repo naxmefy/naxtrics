@@ -1,0 +1,3 @@
+# naxtrics
+
+just wait
