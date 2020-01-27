@@ -1,0 +1,13 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "clean": "node scripts/clean",
+    "clean-locks": "node scripts/clean-locks",
+    "bootstrap": "lerna bootstrap",
+    "reset": "yarn clean && yarn clean-locks && yarn bootstrap"
+  },
+  "devDependencies": {
+    "lerna": "^3.20.2"
+  }
+}
